@@ -125,9 +125,9 @@
 
     #table-of-contents li  {
         color: #262626; 
-        font-weight: 600;
+        font-weight: 500;
         padding: 4px 8px;
-        text-decoration: none;
+        text-decoration: none !important;
         border-radius: 8px;
         margin-bottom: 4px;
     }
