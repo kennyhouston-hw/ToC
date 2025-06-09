@@ -105,9 +105,15 @@
 }
 
 /* --- Адаптивность --- */
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 1199px) {
     #table-of-contents {
         max-width: 620px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    #table-of-contents {
+        max-width: 600px;
     }
 }
 
