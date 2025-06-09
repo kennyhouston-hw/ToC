@@ -43,14 +43,14 @@
 .toc-level-3 { margin-left: 12px; opacity: 0.9; font-size: 15px; }
 
 #table-of-contents li.active > a {
-    color: #262626; /* Пример цвета для активного элемента */
+    color: #262626; 
     font-weight: 400;
     text-decoration: underline;
 }
 
-/* --- Кнопка открытия (бургер) --- */
+/* --- Кнопка открытия меню --- */
 #toc-toggle {
-    display: none; /* Скрыта по умолчанию, появляется в медиа-запросе */
+    display: none; 
     position: fixed;
     bottom: 32px;
     left: 20px;
@@ -69,7 +69,7 @@
     align-items: center;
 }
 
-/* --- Кнопка закрытия (крестик) --- */
+/* --- Кнопка закрытия --- */
 #toc-close {
     display: none;
     position: absolute;
@@ -106,6 +106,12 @@
 }
 
 /* --- Адаптивность --- */
+@media screen and (max-width: 959px) {
+    #table-of-contents {
+        max-width: 620px;
+    }
+}
+
 @media screen and (max-width: 479px) {
     #table-of-contents {
         border-radius: 24px 24px 0 0;
