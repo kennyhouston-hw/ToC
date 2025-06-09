@@ -44,7 +44,7 @@
 
 #table-of-contents li.active > a {
     color: #262626; /* Пример цвета для активного элемента */
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: underline;
 }
 
@@ -124,12 +124,13 @@
     }
 
     #table-of-contents li  {
-        color: #262626; 
-        font-weight: 400;
         padding: 4px 8px;
-        text-decoration: none !important;
         border-radius: 8px;
         margin-bottom: 4px;
+    }
+
+    #table-of-contents li.active > a {
+        text-decoration: none !important;
     }
 
     #table-of-contents li.active {
