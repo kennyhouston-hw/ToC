@@ -1,4 +1,3 @@
-<script>
     document.addEventListener('DOMContentLoaded', () => {
     const HEADER_SELECTOR = 'h1, h2, h3';
     const TARGET_CONTAINER_ID = '#toc';
@@ -59,4 +58,3 @@
     }, { rootMargin: `-${SCROLL_OFFSET - 1}px 0px -${window.innerHeight - SCROLL_OFFSET}px 0px` });
     headers.forEach(header => observer.observe(header));
 });
-</script>
