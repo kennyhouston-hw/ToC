@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- Конфигурация ---
-    const HEADER_SELECTOR = 'h2, h3';
+    const HEADER_SELECTOR = 'h1, h2, h3';
     const TARGET_CONTAINER_ID = '#toc'; // ID элемента, куда вставить оглавление
     const SCROLL_OFFSET = 100; // Смещение для активного пункта (в пикселях)
 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tocList = document.createElement('ul');
     
     tocContainer.innerHTML = `
-        <span id="toc-main-header" class="header">Содержание</span>
+        <span id="toc-main-header" class="header">Содержание статьи</span>
         <button id="toc-close" aria-label="Закрыть содержание">✕</button>
     `;
     tocContainer.appendChild(tocList);
