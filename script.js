@@ -17,7 +17,7 @@
     openButton.setAttribute('aria-label', 'Открыть содержание');
     openButton.setAttribute('aria-expanded', 'false');
     openButton.setAttribute('aria-controls', 'table-of-contents');
-    openButton.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>Содержание`;
+    openButton.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#262626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>Содержание`;
     const closeToc = () => { tocContainer.classList.remove('open'); overlay.classList.remove('visible'); openButton.setAttribute('aria-expanded', 'false'); };
     const openToc = () => { tocContainer.classList.add('open'); overlay.classList.add('visible'); openButton.setAttribute('aria-expanded', 'true'); tocContainer.focus(); };
     headers.forEach((header, index) => {
