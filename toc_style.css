@@ -85,6 +85,7 @@
         height: 40px;
         border-radius: 99px; 
         cursor: pointer; 
+        backdrop-filter: blur(4px);
         font-family: 'Manrope', sans-serif; 
         font-size: 14px; 
         z-index: 1001; 
