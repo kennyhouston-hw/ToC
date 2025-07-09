@@ -3,7 +3,6 @@
     }
 
     #table-of-contents {
-        /*background: #fafafa;*/
         position: relative;
         margin: 0 auto;
         max-width: 728px;
@@ -43,7 +42,7 @@
     }
 
     #table-of-contents li {
-        padding: 4px 8px;
+        padding: 2px 8px;
         border-radius: 0 8px 8px 0;
         margin-bottom: 4px;
         border-left: 2px solid transparent;
