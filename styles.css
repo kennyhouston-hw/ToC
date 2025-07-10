@@ -1,28 +1,30 @@
     #toc {
         position: relative;
+        margin-top: -24px;
     }
 
     #table-of-contents {
         position: relative;
         margin: 0 auto;
-        max-width: 728px;
+        max-width: 696px;
+        background-color: #fff;
         padding: 16px;
-        border-radius: 0 0 16px 16px;
-        border: 1px solid #ebebeb;
-        /*box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);*/
+        border-radius: 16px;
+/*         border: 1px solid #ebebeb; */
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
         font-family: 'Manrope', sans-serif;
     }
     
     @media screen and (max-width: 959px) {
         #table-of-contents {
-            max-width: 588px;
+            max-width: 556px;
         }
     }
 
     @media screen and (max-width: 639px) {
         #table-of-contents {
             max-width: 100%;
-            margin: 0 8px 0 8px;
+            margin: 0 16px 0 16px;
         }
     }
 
