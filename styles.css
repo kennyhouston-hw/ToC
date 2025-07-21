@@ -61,6 +61,7 @@
         display: block;
         font-size: 15px;
         line-height: 20px;
+        letter-spacing:0.15px;
         opacity: 0.75;
     }
 
