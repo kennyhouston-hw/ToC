@@ -78,7 +78,7 @@
     }
 
     #table-of-contents li.active {
-        border-color: rgb(38 38 38 / 100%);
+        font-weight:500;
     }
 
     #table-of-contents li.active > a {
